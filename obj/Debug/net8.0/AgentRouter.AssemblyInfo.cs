@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgentRouter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb1adf4611beb80ec805de91d55d4947c4d18955")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgentRouter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgentRouter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
