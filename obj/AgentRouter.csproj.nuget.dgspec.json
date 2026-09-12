@@ -1,29 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "/home/lephostri/Documents/Workspace/agent-router/AgentRouter/AgentRouter.csproj": {}
+    "C:\\Users\\User\\source\\repos\\MothibeMpho\\AgentRouter\\AgentRouter.csproj": {}
   },
   "projects": {
-    "/home/lephostri/Documents/Workspace/agent-router/AgentRouter/AgentRouter.csproj": {
+    "C:\\Users\\User\\source\\repos\\MothibeMpho\\AgentRouter\\AgentRouter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lephostri/Documents/Workspace/agent-router/AgentRouter/AgentRouter.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\MothibeMpho\\AgentRouter\\AgentRouter.csproj",
         "projectName": "AgentRouter",
-        "projectPath": "/home/lephostri/Documents/Workspace/agent-router/AgentRouter/AgentRouter.csproj",
-        "packagesPath": "/home/lephostri/.nuget/packages/",
-        "outputPath": "/home/lephostri/Documents/Workspace/agent-router/AgentRouter/obj/",
+        "projectPath": "C:\\Users\\User\\source\\repos\\MothibeMpho\\AgentRouter\\AgentRouter.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\MothibeMpho\\AgentRouter\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/lephostri/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -37,19 +44,21 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[10.0.11, )"
+              "version": "[10.0.12, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
-              "version": "[10.0.11, )"
+              "version": "[10.0.12, )"
             },
             "ModelContextProtocol": {
               "target": "Package",
@@ -65,7 +74,7 @@
             },
             "System.Net.Http.Json": {
               "target": "Package",
-              "version": "[10.0.11, )"
+              "version": "[10.0.12, )"
             },
             "YamlDotNet": {
               "target": "Package",
@@ -92,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.424/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

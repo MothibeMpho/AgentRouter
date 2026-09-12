@@ -45,6 +45,8 @@
     }
   },
   "LmStudio": {
-    "BaseUrl": "http://127.0.0.1:1234"
+    "BaseUrl": "http://172.16.0.2:1234",
+    "Key": "sk-lm-943AaMgi:JeEYTGujJIl7Wh850Xo7"
+
   }
 }
