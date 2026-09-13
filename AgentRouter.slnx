@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/tests/">
+    <Project Path="tests/AgentRouter.Tests/AgentRouter.dll/AgentRouter.dll.csproj" Id="e689f2cd-9c04-463c-a266-e23e1605c810" />
     <Project Path="tests/AgentRouter.Tests/AgentRouter.Tests.csproj" />
   </Folder>
   <Project Path="AgentRouter.csproj" />
