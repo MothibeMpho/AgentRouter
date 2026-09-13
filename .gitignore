@@ -22,3 +22,22 @@ out/
 
 # dotnet tool cache
 .tool/
+
+# Test results and coverage
+TestResults/
+coverage*
+*.coverage
+*.coveragexml
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+
+# SQLite and other local DBs
+*.sqlite
+*.db
+
+# Visual Studio cache and workspace files
+.vs*/
+.slnx.sqlite
+
