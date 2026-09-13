@@ -1,0 +1,40 @@
+name: .NET Build
+
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Cache NuGet packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-nuget-
+
+      - name: Restore
+        run: dotnet restore "AgentRouter.slnx"
+
+      - name: Build
+        run: dotnet build "AgentRouter.slnx" --configuration Release --no-restore
+
+      - name: Test
+        run: |
+          dotnet test "tests/AgentRouter.Tests/AgentRouter.Tests.csproj" --configuration Release --no-build --verbosity normal

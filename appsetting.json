@@ -1,4 +1,13 @@
 {
+  "LmStudio": {
+    "BaseUrl": "http://127.0.0.1:1234",
+    "ApiKey": ""
+  },
+  "AgentRouter": {
+    "DefaultModel": "qwen/qwen3.5-9b",
+    "BindAddress": "http://localhost:5080",
+    "SkillsDirectory": ""
+  },
   "Serilog": {
     "Using": [
       "Serilog.Sinks.Console"
@@ -43,8 +52,5 @@
     "Properties": {
       "Application": "AgentRouter"
     }
-  },
-  "LmStudio": {
-    "BaseUrl": "http://127.0.0.1:1234"
   }
 }

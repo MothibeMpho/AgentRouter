@@ -1,0 +1,58 @@
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+*.log
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+
+# Visual Studio temporary files
+*.tmp
+
+# Build results
+out/
+
+# dotnet tool cache
+.tool/
+
+# Test results and coverage
+TestResults/
+coverage*
+*.coverage
+*.coveragexml
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+
+# SQLite and other local DBs
+*.sqlite
+*.db
+
+# Visual Studio cache and workspace files
+.vs*/
+.slnx.sqlite
+
+# Local secrets / machine-specific config overrides — NEVER commit these.
+# The tracked appsetting.json must stay a placeholder-only template.
+appsetting.Local.json
+appsetting.Development.json
+appsettings.json
+appsettings.*.json
+!appsetting.json
+*.local.json
+!appsetting.Local.example.json
+.env
+.env.*
+!.env.example
+secrets.json
+appsetting.*.Local.json
+
