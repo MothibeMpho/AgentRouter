@@ -1,9 +1,6 @@
 # AgentRouter
 
-OpenAI-compatible router/proxy in front of **LM Studio** (or any OpenAI-compatible server).
-It matches the last user message against rule-based **skills** and forwards the
-request to the right model — streaming (SSE), temperatures, and other parameters
-pass through untouched.
+OpenAI-compatible router/proxy in front of **LM Studio** (or any OpenAI-compatible server). It matches the last user message against rule-based **skills** and forwards the request to the right model — streaming (SSE), temperatures, and other parameters pass through untouched.
 
 ```
 Client (Continue / curl / OpenAI SDK)
