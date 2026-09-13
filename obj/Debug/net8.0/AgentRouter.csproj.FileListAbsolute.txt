@@ -89,3 +89,6 @@ C:\Users\User\source\repos\MothibeMpho\AgentRouter\obj\Debug\net8.0\AgentRouter.
 C:\Users\User\source\repos\MothibeMpho\AgentRouter\obj\Debug\net8.0\AgentRou.CF46F4A0.Up2Date
 C:\Users\User\source\repos\MothibeMpho\AgentRouter\obj\Debug\net8.0\AgentRouter.genruntimeconfig.cache
 C:\Users\User\source\repos\MothibeMpho\AgentRouter\obj\Debug\net8.0\ref\AgentRouter.dll
+C:\Users\User\source\repos\MothibeMpho\AgentRouter\bin\Debug\net8.0\xunit.abstractions.dll
+C:\Users\User\source\repos\MothibeMpho\AgentRouter\bin\Debug\net8.0\xunit.assert.dll
+C:\Users\User\source\repos\MothibeMpho\AgentRouter\bin\Debug\net8.0\xunit.core.dll

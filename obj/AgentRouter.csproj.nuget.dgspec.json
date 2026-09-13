@@ -83,6 +83,14 @@
             "serilog": {
               "target": "Package",
               "version": "[4.4.0, )"
+            },
+            "xunit.assert": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.9.3, )"
             }
           },
           "imports": [
