@@ -1,7 +1,21 @@
-<Solution>
+<?xml version="1.0" encoding="utf-8"?>
+<Solution Version="1.0">
+  <Project Path="AgentRouter.csproj" />
   <Folder Name="/tests/">
-    <Project Path="tests/AgentRouter.Tests/AgentRouter.dll/AgentRouter.dll.csproj" Id="e689f2cd-9c04-463c-a266-e23e1605c810" />
     <Project Path="tests/AgentRouter.Tests/AgentRouter.Tests.csproj" />
   </Folder>
-  <Project Path="AgentRouter.csproj" />
+  <Properties>
+    <Property Name="name" Value="AgentRouter" />
+    <Property Name="solutionStyle" Value="xunit" />
+  </Properties>
+  <BuildConfigurations>
+    <BuildConfiguration Name="Debug" IsDebug="true" IsSelected="true" />
+    <BuildConfiguration Name="Release" />
+  </BuildConfigurations>
+  <SolutionProperties>
+    <RunConfigurations>
+      <RunConfiguration SolutionItemPath="AgentRouter.csproj" LaunchTarget="binary" LaunchTargetPath="bin/Debug/net8.0/AgentRouter" />
+      <RunConfiguration SolutionItemPath="tests/AgentRouter.Tests/AgentRouter.Tests.csproj" LaunchTarget="xunit" LaunchTargetPath="tests/AgentRouter.Tests" />
+    </RunConfigurations>
+  </SolutionProperties>
 </Solution>

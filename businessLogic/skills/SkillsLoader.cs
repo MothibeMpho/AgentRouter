@@ -51,7 +51,11 @@ public static class SkillsLoader
             allSkills.Add(skillsFromFile);
         }
 
-        return allSkills;
+        // Deterministic ordering so routing is stable regardless of file-system enumeration order.
+        return allSkills
+            .OrderBy(s => s.Name, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(s => s.Model, StringComparer.OrdinalIgnoreCase)
+            .ToList();
     }
 
     /// <summary>
@@ -78,6 +82,12 @@ public static class SkillsLoader
 
         var skill = _deserializer.Deserialize<Skill>(parts[0]);
         skill.Description = parts.Length > 1 ? parts[1].Trim() : string.Empty;
+
+        // Normalize trigger keywords: trim surrounding whitespace, drop empty entries.
+        skill.TriggerKeywords = skill.TriggerKeywords
+            .Select(k => k.Trim())
+            .Where(k => k.Length > 0)
+            .ToList();
 
         return skill;
     }

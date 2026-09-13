@@ -1,0 +1,12 @@
+{
+
+  "LmStudio": {
+    "BaseUrl": "http://172.16.0.2:1234",
+    "ApiKey": "sk-lm-r3k2nr80:ai1DK1s5qrXTaFJ3P8l2"
+  },
+  "AgentRouter": {
+    "DefaultModel": "qwen/qwen3.5-9b",
+    "BindAddress": "http://localhost:5080",
+    "SkillsDirectory": ""
+  }
+}

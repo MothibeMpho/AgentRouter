@@ -41,3 +41,18 @@ Thumbs.db
 .vs*/
 .slnx.sqlite
 
+# Local secrets / machine-specific config overrides — NEVER commit these.
+# The tracked appsetting.json must stay a placeholder-only template.
+appsetting.Local.json
+appsetting.Development.json
+appsettings.json
+appsettings.*.json
+!appsetting.json
+*.local.json
+!appsetting.Local.example.json
+.env
+.env.*
+!.env.example
+secrets.json
+appsetting.*.Local.json
+
